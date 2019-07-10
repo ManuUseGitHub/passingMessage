@@ -1,10 +1,8 @@
 var passing = function() {
   if (typeof $ !== 'undefined' || typeof jQuery !== 'undefined') {
     
-  	// add the overlay
-    $('body').append(
-		'<div id="passingOverlay" class="overlayAll"><h2 class="message"/></div>'
-	);
+    // add the overlay
+    $('body').append('<div id="passingOverlay" class="overlayAll"><h2 class="message"/></div>');
 
     class PassingMessage {
       constructor() {
